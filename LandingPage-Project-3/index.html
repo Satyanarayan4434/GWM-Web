@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Restaurant Portfolio</h1>
+      </div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Welcome to Our Restaurant</h2>
+      <p>Experience the finest dining with our delicious and diverse menu.</p>
+      <a href="#" class="cta-button">Make a Reservation</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a mauris nec tortor faucibus scelerisque. Integer condimentum mi ac est bibendum, vitae ullamcorper risus blandit. Suspendisse ut tortor ac sem efficitur tincidunt in in turpis.</p>
+      <p>Pellentesque eleifend urna ut lectus commodo, vitae scelerisque purus consequat. Proin ut risus a sapien egestas egestas. Donec id dignissim lectus, ac dapibus mauris. Quisque porttitor condimentum purus, non congue turpis consequat et.</p>
+    </div>
+  </section>
+
+  <section class="menu">
+    <div class="container">
+      <h3>Our Menu</h3>
+      <div class="menu-item">
+        <img src="menu1.jpg" alt="Menu Item 1">
+        <h4>Delicious Dish 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="price">$19.99</span>
+      </div>
+      <div class="menu-item">
+        <img src="menu2.jpg" alt="Menu Item 2">
+        <h4>Delicious Dish 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="price">$14.99</span>
+      </div>
+      <div class="menu-item">
+        <img src="menu3.jpg" alt="Menu Item 3">
+        <h4>Delicious Dish 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span class="price">$12.99</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container">
+      <h3>Photo Gallery</h3>
+      <div class="gallery-item">
+        <img src="gallery1.jpg" alt="Gallery Item 1">
+      </div>
+      <div class="gallery-item">
+        <img src="gallery2.jpg" alt="Gallery Item 2">
+      </div>
+      <div class="gallery-item">
+        <img src="gallery3.jpg" alt="Gallery Item 3">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h3>Contact Us</h3>
+      <p>If you have any questions or feedback, feel free to reach out to us.</p>
+      <form id="contact-form" action="#">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Restaurant Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

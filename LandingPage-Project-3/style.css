@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+header {
+  background-color: #b3aeaa;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.about {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.about h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  margin-bottom: 15px;
+}
+
+
+.menu {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.menu h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.menu-item img {
+  width: 100%;
+  max-width: 200px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-item h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  flex-basis: 100%;
+}
+
+.menu-item p {
+  margin-bottom: 10px;
+  flex-basis: 100%;
+}
+
+.menu-item .price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.gallery {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.gallery h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.gallery-item {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.contact h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+#menu-toggle{
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+
+  #menu-toggle {
+    display: none;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: block;
+  }
+}
+
