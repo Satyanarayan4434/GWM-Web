@@ -18,6 +18,10 @@ body {
   background-color: cadetblue;
   padding-left: 3rem;
   padding-right: 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .navLogo{
@@ -119,4 +123,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.fixed-top{
+  background-attachment: fixed;
 }
